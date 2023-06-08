@@ -51,7 +51,7 @@ const initialEditIndex = -1;
 
 const [todos, setTodos] = useState<Todo[]>([]);
 const [formState, setformState] = useState<Todo>(initialFormState);
-const [isEdit, setIsEdit] = useState<Boolean>(false);
+const [isEdit, setIsEdit] = useState<boolean>(false);
 const [editIndex, setEditIndex] = useState<number>(initialEditIndex);
 
     const handleCreate =() => {

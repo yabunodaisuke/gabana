@@ -35,6 +35,7 @@ module.exports = {
       yellow: '#F2C94C',
       black: '#344242',
       white: '#FFFFFF',
+      red:   "#f87171",
     },
     fontSize: {
       xs: '0.75rem',
