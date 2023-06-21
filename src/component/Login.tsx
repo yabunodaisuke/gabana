@@ -1,3 +1,5 @@
+
+import Link from 'next/link';
 import React from "react";
 
 // eslint-disable-next-line import/no-default-export
@@ -14,8 +16,12 @@ export default function Login() {
       <button className="my-10 text-white border-2 bg-pink-600 hover:bg-primary-500">Login</button>
     </div>
     <div>アカウントをお持ちでない方はこちらから！<br></br>
-    <a href="/Register"　className="text-red hover:bg-primary-700">アカウント作成</a>
+    {/* <a href="/Register"　className="text-red hover:bg-primary-700">アカウント作成</a> */}
     
+
+    <Link  href="/Register">アカウント作成
+  
+  </Link> 
   
       
 

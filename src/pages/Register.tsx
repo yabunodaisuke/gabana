@@ -25,9 +25,12 @@ const Register = () => (
         </select>
 
       </form>
+      
+      
     </section>
 
 
   )
+  
 
 export default Register;

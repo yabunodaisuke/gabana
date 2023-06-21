@@ -1,7 +1,10 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
+import Link from "next/link";
 import Login from "@/component/Login";
+import Map from "@/component/Map";
 import { TodoTable } from "@/component/TodoTable";
+
 
 const Home: React.FC = () => (
   <div className="bg-primary-50 h-screen">
@@ -11,7 +14,9 @@ const Home: React.FC = () => (
 
      
       <Login />
-      {/* <a href="/Register"　className="text-red hover:bg-primary-700">アカウント作成</a> */}
+     
+      {/* <Map /> */}
+      <Link href="/Top">www</Link>
     </div>
  
 );
