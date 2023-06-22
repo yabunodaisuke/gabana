@@ -14,7 +14,7 @@ const Map = () => {
 // loadscriptでapiを格納
 return (
   <LoadScript
-  googleMapsApiKey='AIzaSyCWLHSuC0jp33VE7tmlsD8y7J3N8qzGwGo'>
+  googleMapsApiKey=''>
   <GoogleMap
       mapContainerStyle={mapStyles}
       zoom={13}
